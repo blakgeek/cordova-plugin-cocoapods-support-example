@@ -1,0 +1,2 @@
+# Cordova Plugin With Cocoapods Support
+A reference implementation of a plugin with Cocoapod dependency using [cordova-plugin-cocoapods-support](https://github.com/blakgeek/cordova-plugin-cocoapods-support).
