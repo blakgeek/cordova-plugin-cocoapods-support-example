@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-cocoapods-support-example",
+  "version": "1.1.0",
+  "description": "Adds support for Firebase to your Cordova/PhoneGap apps.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blakgeek/cordova-plugin-cocoapods-support-example.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova:plugin",
+    "cocoapods",
+    "pod",
+    "pods",
+    "plugin",
+    "example",
+    "demo",
+  ],
+  "author": "Carlos \"blakgeek\" Lawton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakgeek/cordova-plugin-cocoapods-support-example/issues"
+  },
+  "homepage": "https://github.com/blakgeek/cordova-plugin-cocoapods-support-example"
+}

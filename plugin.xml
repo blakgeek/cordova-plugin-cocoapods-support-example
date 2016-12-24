@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-cocoapods-support-example" version="1.1.0">
+    <name>Cocoapods Support Example</name>
+    <description>An example plugin with Cocoapods support.</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, ios, cocoapods, pod, pods, demo, example</keywords>
+    <author>Carlos "blakgeek" Lawton</author>
+    <repo>https://github.com/blakgeek/cordova-plugin-cocoapods-support-example.git</repo>
+    <issue>https://github.com/blakgeek/cordova-plugin-cocoapods-support-example/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=6.0.0" />
+    </engines>
+
+    <!--<dependency id="cordova-plugin-cocoapod-support"/>-->
+
+    <platform name="ios">
+        <!-- optionally set minimum ios version and enable use_frameworks! -->
+        <pods-config ios-min-version="9.0" use-frameworks="true"/>
+        <!-- Add the latest version of Google's Firebase Core -->
+        <pod id="Firebase/Core" />
+        <!-- Add version 2.2.2 of ObjectMapper -->
+        <pod id="ObjectMapper" version="2.2.2"/>
+        <!-- Add Lyft's ModelMapper from the gir repo -->
+        <pod id="ModelMapper" git="https://github.com/lyft/mapper" />
+
+        <!-- At the time this plugin was created Auth0 had an issue with it's bundle path.  But we can fix that like so -->
+        <pod id="Lock" fix-bundle-path="Lock/Auth0.bundle"/>
+    </platform>
+
+</plugin>
